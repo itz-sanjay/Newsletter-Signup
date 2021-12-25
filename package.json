@@ -4,7 +4,8 @@
   "description": "This is Newsletter SignUp App that allows us to share relevant and valuable information with the network of customers, prospects and subscribers.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
   },
   "author": "Sanjay",
   "license": "ISC",
