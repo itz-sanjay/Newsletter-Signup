@@ -36,7 +36,7 @@ app.post('/', function(req, res){
     const url = 'https://us20.api.mailchimp.com/3.0/lists/193094272b';
     const options = {
         method: 'post',
-        auth: 'sanjay:8cfbf2b1a88d8c89fd0fd3692b0c94ef-us20'
+        auth: 'sanjay:2990049dc41ba506c1c3603cc243ada9-us20'
     };
 
     const request = https.request(url, options, function(response){
@@ -68,10 +68,3 @@ app.post('/failure', function(req, res){
 app.listen(process.env.PORT || port, function(req, res){
     console.log('Server started running at ' + process.env.PORT);
 });
-
-
-//API KEY
-//8cfbf2b1a88d8c89fd0fd3692b0c94ef-us20
-
-//LIST ID
-//193094272b
