@@ -1,0 +1,22 @@
+node_modules
+build
+npm-debug.log
+.nyc
+.env
+.DS_Store
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Output of 'npm pack'
+*.tgz
+
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
