@@ -3,6 +3,7 @@ build
 npm-debug.log
 .nyc
 .env
+.env.staging
 .DS_Store
 
 # Stores VSCode versions used for testing VSCode extensions
@@ -10,7 +11,6 @@ npm-debug.log
 
 # Output of 'npm pack'
 *.tgz
-
 
 # Optional npm cache directory
 .npm
