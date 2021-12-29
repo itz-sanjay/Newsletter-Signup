@@ -1,8 +1,6 @@
 const express = require('express', '4.17.2');
 const bodyParser = require('body-parser', '1.19.1');
 const https = require('https');
-require('dotenv').config();
-require ('custom-env').env('staging');
 
 var apiKey = process.env.APP_API;
 var apiID = process.env.APP_APIID;
