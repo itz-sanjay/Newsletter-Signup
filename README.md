@@ -8,7 +8,7 @@
         bodyParser
         request
 
-## Project Description/Summary
+## Project Description
 This server-side project uses Mailchimp's API to create a working, real-world newsletter sign-up form application. This JavaScript project form is actually integrated with this site's newsletter sign-up campaign, so if you haven't already done so, sign up to my Mailchimp Newsletter Heroku application. 😁 
 
 ## Time to Code
